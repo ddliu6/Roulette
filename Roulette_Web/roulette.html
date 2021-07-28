@@ -1,0 +1,22 @@
+﻿<html>
+    <head>
+        <title>Roulette Game!</title>
+        <link rel="stylesheet" type="text/css" href="roulette.css" />
+    </head>
+    <body bgcolor = "#028F43" onload="GiveMoney();Table();">
+        <img src="background.jpg" height=730px ><br>
+        <img id="ball" src="b.gif" style="position:absolute;top:290;left:590;" height=35 width=35>
+        <div id="roulette" onclick="Init();"></div>
+        <div id="score" >0</div>
+        <div id="credit"></div>
+        <div id="win_credit"></div>
+        <div id="chips"></div>
+        <div id="bet"></div>
+        <img src="add.png" id="add" onclick="if (bet_cash + 5 <= credit) {bet_cash+=5;document.getElementById('bet').innerHTML=bet_cash;}">
+        <img src="sub.png" id="sub" onclick="if (bet_cash - 5 >= 0) {bet_cash-=5; document.getElementById('bet').innerHTML=bet_cash;}">
+        <div id="special"></div>
+        <div id="Show" >Set your bet before you click the roulette!!</div>
+        <div id="game" style="position:absolute;top:50px;left:70px;"></div>
+    </body>
+    <script type="text/javascript" src="roulette.js"></script>
+</html>

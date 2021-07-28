@@ -1,0 +1,85 @@
+#score{
+position:absolute;
+top:20;
+left:820;
+width:100;
+height:100;
+background-color:white;
+font:80px bold;
+border:10px solid red;
+}
+#bet{
+position:absolute;
+top:620;
+left:160;
+width:140;
+height:100;
+background-color:white;
+font:80px bold;
+}
+#add{
+position:absolute;
+top:625;
+left:300;
+height:100;
+}
+#sub{
+position:absolute;
+top:625;
+left:70;
+height:100;
+}
+#credit{
+position:absolute;
+top:525;
+left:130;
+width:100;
+height:100;
+font:40px bold;
+color:white;
+}
+#win_credit{
+position:absolute;
+top:575;
+left:130;
+width:100;
+height:100;
+font:40px bold;
+color:white;
+}
+#chips{
+position:absolute;
+top:600;
+left:370;
+width:100;
+height:100;
+font:40px bold;
+color:black;
+}
+#special{
+position:absolute;
+top:200;
+left:500;
+}
+#Show{
+position:absolute;
+width:520;
+height:40;
+background-color:blue;
+text-align:center;
+font:30px bolder;
+color: white;
+}
+
+#roulette{
+position:absolute;
+top:30;
+left:300;
+width:600;
+height:550;
+}
+
+#m{
+position:absolute;
+height:70;
+}
